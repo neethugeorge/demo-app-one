@@ -1,7 +1,7 @@
 var restify = require('restify');
  
 var server = restify.createServer({
-  name: 'ngp-nodejs',
+  name: 'demo-app-1',
 });
 const response = {
     status: 'ok'
