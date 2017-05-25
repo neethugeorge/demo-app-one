@@ -9,7 +9,7 @@ const response = {
 const response2 = {
     status: 'ok',
     app: 'Demo App 1',
- 	branch : 'Branch 1'
+ 	branch : 'Branch 2'
 }
 server.use(restify.acceptParser(server.acceptable));
 server.use(restify.queryParser());
