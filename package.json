@@ -1,5 +1,5 @@
 {
-  "name": "ngp-nodejs",
+  "name": "demo-app-1",
   "version": "1.0.0",
   "description": "A sample docker container to run a nodejs application serving a health API request",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microservices-today/ngp-nodejs.git"
+    "url": "git+https://github.com/neethugeorge/demo-app-one.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/microservices-today/ngp-nodejs/issues"
+    "url": "hhttps://github.com/neethugeorge/demo-app-one/issues"
   },
-  "homepage": "https://github.com/microservices-today/ngp-nodejs#readme",
+  "homepage": "https://github.com/neethugeorge/demo-app-one#readme",
   "dependencies": {
     "restify": "^4.3.0"
   }

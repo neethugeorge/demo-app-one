@@ -6,12 +6,22 @@ var server = restify.createServer({
 const response = {
     status: 'ok'
 }
+const response2 = {
+    status: 'ok',
+    app: 'Demo App 1',
+ 	branch : 'Branch 1'
+}
 server.use(restify.acceptParser(server.acceptable));
 server.use(restify.queryParser());
 server.use(restify.bodyParser());
  
 server.get('/health', function (req, res, next) {
   res.send(response);
+  return next();
+});
+
+server.get('/', function (req, res, next) {
+  res.send(response2);
   return next();
 });
  
