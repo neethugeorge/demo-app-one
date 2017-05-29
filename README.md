@@ -1,12 +1,12 @@
-# ngp-nodejs
+# demo-app-one
 
-This is a sample nodejs application that can be run as a docker container.  
+This is a sample nodejs application for fr-qa-controller demo that can be run as a docker container.  
 It runs with https://www.npmjs.com/package/restify.
 
 ### Steps to run the application
 
-1. ```docker build -t demo-app-1:branch_name .```
-2. ```docker run -d -p 9000:9000 demo-app-1:branch_name```
+1. ```docker build -t demo-app-one:branch_name .```
+2. ```docker run -d -p 9000:9000 demo-app-one:branch_name```
 
 ### Health Check
 
