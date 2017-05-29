@@ -1,14 +1,14 @@
 var restify = require('restify');
  
 var server = restify.createServer({
-  name: 'demo-app-1',
+  name: 'demo-app-one',
 });
 const response = {
     status: 'ok'
 }
 const response2 = {
     status: 'ok',
-    app: 'Demo App 1',
+    app: 'Demo App One',
  	branch : 'Branch 2'
 }
 server.use(restify.acceptParser(server.acceptable));
