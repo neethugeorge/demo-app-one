@@ -20,7 +20,7 @@ server.get('/health', function (req, res, next) {
   return next();
 });
 
-server.get('/', function (req, res, next) {
+server.get('/serviceA', function (req, res, next) {
   res.send(response2);
   return next();
 });
